@@ -1,1 +1,27 @@
+Console.WriteLine("1. Sayıyı/Rakamı Yazınız.");
+            int a = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("2. Sayıyı/Rakamı Yazınız.");
+            int b = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("3. Sayıyı/Rakamı Yazınız.");
+            int c = int.Parse(Console.ReadLine());
+
+            if (a > b || a > c)
+            {
+                Console.WriteLine(a);
+                Console.WriteLine("Daha Büyük Bir Sayı/Rakam");
+            }
+
+            else if (b > a || b > c)
+            {
+                Console.WriteLine(b);
+                Console.WriteLine("Daha Büyük Bir Sayı/Rakam");
+            }
+
+            else if (c > a || c > b)
+            {
+                Console.WriteLine(c);           
+                
+                
+NOT: BU PROJEYİ 'VISUAL STUDIO' ADLI UYGULAMA İLE ÇALIŞIR.
